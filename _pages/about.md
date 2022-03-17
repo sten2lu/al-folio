@@ -2,23 +2,32 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Student @ <a href="https://www.dkfz.de/en/interaktives-maschinelles-lernen/index.php">IML Group at DKFZ</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+    <center>
+    <p>Heidelberg, Germany</p>
+    </center>
+news: False  # includes a list of news items
+selected_papers: True # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD Student in the Interactive Machine Learning Group at the DKFZ headed by Dr. Paul Jäger, where my main area of research is Deep Active Learning, a subfield of Machine Learning.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Further, I have past working experiences and am still interested in the fields of Deep Generative Methods and Anomaly Detection. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Until recently, I studied physics at the University of Heidelberg, focusing on Computational Physics.
+
+Generally, I like to read widely because: "You never know what you don't know".
+But Deep Learning, Physics, Psychology, Programming, and Statistics have captured my mind for a long time now. 
+
+Also, during my free time I never let a chance pass by to entertain myself with some fiction, just to let my imagination run wild.
+Whenever I am neither reading nor working, I probably do something like wakeboarding, bouldering, playing piano, cooking, meeting friends, or programming.
+
+I am even writing something on my blog from time to time -- you might want to check it out. 
+
+<br>
