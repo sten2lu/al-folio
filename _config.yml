@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Carsten
 middle_name: 
 last_name: Lüth
-email: 
+email: carsten.lth@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   PhD Student @ Interactive Machine Learning Group (DKFZ)
 footer_text: >
@@ -71,7 +71,6 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
