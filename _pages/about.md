@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student @ <a href="https://www.dkfz.de/en/interaktives-maschinelles-lernen/index.php">IML Group at DKFZ</a>
+subtitle: PhD Student @ <a href="https://iml-dkfz.github.io/index.html">IML Group at DKFZ</a>
 
 profile:
   align: right
@@ -17,6 +17,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a PhD Student in the Interactive Machine Learning Group at the DKFZ headed by Dr. Paul Jäger, where my main area of research is Deep Active Learning, a subfield of Machine Learning.
+On the side, I am one of the organizers of [heidelberg.ai](https://heidelberg.ai) a community with over 2200 members where we host events to encourage scientific discussions about artificial intelligence.
 
 Further, I have past working experiences and am still interested in the fields of Deep Generative Methods and Anomaly Detection. 
 
