@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Carsten T. Lüth | blog</title>
+    <title>Carsten T. Lüth | projects</title>
     <meta name="author" content="Carsten T. Lüth" />
-    <meta name="description" content="PhD Student @ Interactive Machine Learning Group (DKFZ)
-" />
+    <meta name="description" content="A few things I spend my time on..." />
     <meta name="keywords" content="physics, machine-learning, information-theory, blog" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" href="/assets/img//assets/img/icon.png"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://sten2lu.github.io/blog/">
+    <link rel="canonical" href="https://sten2lu.github.io/projects/">
     
     <!-- Dark Mode -->
     
@@ -72,16 +71,16 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
               </li>
 
               <!-- Other pages -->
               <li class="nav-item ">
                 <a class="nav-link" href="/interesting/">interesting</a>
               </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/projects/">projects</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/projects/">projects<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/publications/">publications</a>
@@ -96,8 +95,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -110,110 +109,65 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1>blog</h1>
-    <h2>question everything <br> because <br> one always have to be sure not to be too sure
-</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">projects</h1>
+            <p class="post-description">A few things I spend my time on...</p>
+          </header>
 
+          <article>
+            <!-- pages/projects.md -->
+<div class="projects">
+  <!-- Display categorized projects -->
+  <h2 class="category">work</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/1_nnunet-workshop/">
+      <div class="card hoverable">
+<figure>
 
-  <ul class="post-list">
-    
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/projects/nnunet-workshop-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/projects/nnunet-workshop-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/projects/nnunet-workshop-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/projects/nnunet-workshop.png" alt="project thumbnail">
 
-    
-    
-    
-    
+  </picture>
 
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/models_abstraction/">Models, Abstraction & Automation</a>
-        
-      </h3>
-      <p>ever wondered, why improvement took so long?</p>
-      <p class="post-meta"> 6 min read &nbsp; &middot; &nbsp;
-        June 5, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
+</figure>
 
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/focus_attention/">Focus & Attention</a>
-        
-      </h3>
-      <p>a story about distraction</p>
-      <p class="post-meta"> 10 min read &nbsp; &middot; &nbsp;
-        April 10, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/hello_world/">Hello, World!</a>
-        
-      </h3>
-      <p>the mandatory way to start a blog</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        February 8, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  
-
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">nnU-Net Workshop</h2>
+          <p class="card-text">Learn how to use nnU-Net for Segmentation</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
 </div>
+  </div>
+  <h2 class="category">fun</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
+  </div>
+</div>
+
+          </article>
+
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2024 Carsten T. Lüth. Work in Progress...
+        © Copyright 2024 Carsten T. Lüth. Work in Progress...
 
       </div>
     </footer>
