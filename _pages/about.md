@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student @ <a href="https://iml-dkfz.github.io/index.html">IML Group at DKFZ / Helmholtz Imaging</a>
+subtitle: <a href='#'>Affiliations</a>. PhD Student @ <a href="https://iml-dkfz.github.io/index.html">IML Group at DKFZ / Helmholtz Imaging</a>
 
 profile:
   align: right
   image: prof_pic.png
-  address: >
-    <center>
+  image_circular: false # crops the image to make it circular
+  more_info: >
     <p>Heidelberg, Germany</p>
-    </center>
-news: False  # includes a list of news items
-selected_papers: True # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+
+news: true # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 ---
 
 I am a deep learning researcher currently a PhD Student in the Interactive Machine Learning Group at the DKFZ / Helmholtz Imaging headed by [Dr. Paul Jäger](https://pfjaeger.github.io)(DeepMind). Currently, my main area of research is Deep Active Learning, which aims at reducing the annotation effort for supervised training by selecting the most informative samples for annotation. 
